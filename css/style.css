@@ -1,0 +1,479 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+header {
+  background-image: url("../images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: aliceblue;
+  font-weight: 700;
+  margin-left: 40px;
+  text-decoration: none;
+  transition: 1s;
+}
+
+nav ul li a:hover {
+  color: #16a085;
+  border-bottom: aliceblue;
+}
+
+#banner__section h1 {
+  color: aliceblue;
+  font-weight: 600;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+#banner__section p {
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(201, 209, 216);
+}
+
+.brand__button {
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: #16a085;
+  color: aliceblue;
+  font-weight: 800;
+  outline: 0;
+  border: 0;
+  margin-top: 20px;
+  transition: 1s;
+}
+
+.brand__button:hover {
+  box-shadow: 10px -2px 5px 10px #16a0843d;
+  color: #edf5f3;
+  cursor: pointer;
+}
+
+#social__links {
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+#social__links img {
+  margin-left: 20px;
+}
+
+/* about us css  */
+
+#about__us {
+  padding: 50px 10%;
+  background-color: #f5f6f7;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__content h2 {
+  font-size: 20px;
+  color: #16a085;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.about__content p {
+  margin-bottom: 10px;
+  text-align: justify;
+  color: #4d4e50;
+  width: 80%;
+}
+
+.about__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* design area css */
+
+#design__area {
+  padding: 50px 10%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #fff;
+}
+
+.design__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.design__content h2 {
+  font-size: 20px;
+  color: #16a085;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.design__content p {
+  margin-bottom: 10px;
+  text-align: justify;
+  color: #4d4e50;
+  width: 80%;
+}
+
+#design__area h6 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.arrow__image {
+  margin-top: 40px;
+}
+
+.arrow__image img {
+  margin-right: 20px;
+}
+
+/* community part css */
+
+#our__community {
+  background-color: #f5f6f7;
+}
+
+.community__area {
+  padding: 50px 10%;
+}
+
+.community__arrow {
+  display: flex;
+  justify-content: end;
+}
+
+.community__arrow img {
+  margin-right: 20px;
+}
+
+.community__all__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.community__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.community__card h2 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.community__card p {
+  text-align: center;
+  width: 50%;
+}
+
+/* contact us css */
+#contact__us {
+  background-image: url("../images/contact-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact__content {
+  padding: 0 10%;
+}
+
+.contact__content h1 {
+  color: aliceblue;
+  font-weight: 600;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.email__input {
+  display: flex;
+  justify-content: center;
+}
+
+.check__icon {
+  background-color: #0a5849;
+  color: aliceblue;
+  font-weight: 800;
+  height: 100%;
+  width: 50px;
+  border: 0;
+  outline: 0;
+  padding: 20px 10px;
+}
+
+.contact__content input {
+  padding: 20px 10px;
+  outline: 0;
+  border: 0;
+}
+
+.contact__content input:focus {
+  border: 0;
+  outline: 0;
+}
+
+/* download css */
+
+#download__it {
+  background-color: #f5f6f7;
+}
+
+.download__content {
+  padding: 50px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.download__content h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.download__content p {
+  width: 60%;
+  text-align: center;
+  color: #4d4e50;
+  margin: 20px 0;
+}
+
+.download__button {
+  margin-right: 30px;
+  width: 250px;
+  background-color: #16a085;
+  color: aliceblue;
+  font-weight: 800;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.download__button div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.download__button h5 {
+  padding: 20px 5px;
+  font-size: 15px;
+}
+
+.font__awesome__icon {
+  font-size: 20px;
+}
+
+.version__name {
+  margin-left: 20px;
+}
+
+.version__icon {
+  background-color: #0a5849;
+  color: aliceblue;
+  font-weight: 800;
+  height: 100%;
+  width: 50px;
+}
+
+/* footer css */
+
+footer {
+  padding: 50px 10%;
+}
+
+#footer__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer__items ul {
+  list-style-type: none;
+}
+
+#footer__items ul li {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 2px solid #16a085;
+  font-weight: 800;
+}
+
+#footer__items p {
+  margin-top: 10px;
+  padding-left: 10px;
+  font-weight: 800;
+}
+
+/* responsive area */
+
+@media only screen and (max-width: 788px) {
+  #about__us {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+
+  #design__area {
+    gap: 50px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .design__image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .community__all__cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+
+  .download__button {
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 50px;
+  }
+}
+
+/* button css */
+
+.btn {
+  margin-top: calc(50% + 25px);
+  position: relative;
+  display: inline-block;
+  width: 277px;
+  height: 50px;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 17px;
+  letter-spacing: 0.045em;
+}
+
+.btn svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.btn svg rect {
+  stroke: #ec0033;
+  stroke-width: 4;
+  stroke-dasharray: 353, 0;
+  stroke-dashoffset: 0;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+.btn span {
+  background: rgb(255, 130, 130);
+  background: -moz-linear-gradient(
+    left,
+    rgba(255, 130, 130, 1) 0%,
+    rgba(225, 120, 237, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 130, 130, 1) 0%,
+    rgba(225, 120, 237, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 130, 130, 1) 0%,
+    rgba(225, 120, 237, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn:hover svg rect {
+  stroke-width: 4;
+  stroke-dasharray: 196, 543;
+  stroke-dashoffset: 437;
+}
+
+/*  
+        <a href="http://marcel-pirnay.be/" class="btn">
+          <svg width="277" height="62">
+            <defs>
+              <linearGradient id="grad1">
+                <stop offset="0%" stop-color="#FF8282" />
+                <stop offset="100%" stop-color="#E178ED" />
+              </linearGradient>
+            </defs>
+            <rect
+              x="5"
+              y="5"
+              rx="25"
+              fill="none"
+              stroke="url(#grad1)"
+              width="266"
+              height="50"
+            ></rect>
+          </svg>
+          <span>Welcome in my world</span>
+        </a>
+ */
